@@ -1,0 +1,19 @@
+Source: uci
+Maintainer: Elektrobit <info@elektrobit.de>
+Build-Depends: cmake, debhelper (>= 9), libubox-dev
+Standards-Version: 4.5.0
+
+Package: libuci1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Unified Configuration Interface
+
+Package: uci
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Unified Configuration Interface
+
+Package: libuci-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libuci1 (= ${binary:Version})
+Description: Unified Configuration Interface
