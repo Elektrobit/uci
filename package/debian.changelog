@@ -1,3 +1,16 @@
+uci (20250206) unstable; urgency=medium
+
+ Sync upstream 
+ * file: Fix uci -m import command
+ * remove internal usage of redundant uci_ptr.last
+ * file: Ingore config file with '.' in name
+ * add support for an override config directory
+ * CMakeLists.txt: bump minimum cmake version
+ * CMakeLists: add supoort for including ABIVERSION in the library version
+ * libuci: fix false positive warining on older gcc versions
+
+ -- Elektrobit <info@elektrobit.de>  Thu, 06 Feb 2025 12:29:27 +0100
+
 uci (20230411) unstable; urgency=medium
 
  Synch upstream
