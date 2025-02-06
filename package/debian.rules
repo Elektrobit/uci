@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+override_dh_auto_configure:
+	dh_auto_configure -- -DBUILD_LUA=0 -DABIVERSION=1
+
+%:
+	dh $@ --buildsystem=cmake

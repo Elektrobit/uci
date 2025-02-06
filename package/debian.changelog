@@ -1,0 +1,22 @@
+uci (20230411) unstable; urgency=medium
+
+ Synch upstream
+ * uci: macro uci_alloc_element not in uci.h
+ * optimize update section in uci_set
+ * fix memory leak uci_set on update section
+ * maintain option position in uci_add_list
+ * fix atomicity of uci_add_list
+ * fix use-after-free uci_add_list
+ * optimize update option in uci_set
+ * maintain option position in uci_set
+ * fix use-after-free uci_set on update option
+ * simplify uci_load_delta() by using a helper
+ * drop redundant uci_add_delta_path() call for -P
+
+ -- Elektrobit <info@elektrobit.de>  Thu, 11 Apr 2023 08:00:00 +0200
+
+uci (20211022) unstable; urgency=medium
+
+  * Initial package
+
+ -- Elektrobit <info@elektrobit.de>  Sun, 15 May 2022 13:42:56 +0200
