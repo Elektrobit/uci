@@ -4,6 +4,7 @@ Build-Depends: cmake, debhelper (>= 9), libubox-dev
 Standards-Version: 4.5.0
 Priority: optional
 Section: admin
+Rules-Requires-Root: no
 
 Package: libuci1
 Architecture: any
